@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #341F34;
-  color: #8CB2FF;
+  background: #1e1e1e;
+  color: #f2f7ff;
   font-family: "DM Sans", "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -53,7 +53,22 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #8CB2FF;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+  background: #10ff83 none repeat scroll 0% 0%;
+  border: 1px solid #242424;
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.25),
+    0 1px 0 rgba(255, 255, 255, 0.25) inset,
+    0 0 0 rgba(0, 0, 0, 0.5) inset,
+    0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+    0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+    0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+
+  transition: all 0.2s linear 0s;
+  text-align: center;
+  text-decoration: none;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -149,7 +164,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #CC9999;
+  background: #31EB89;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -183,7 +198,23 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8CB2FF;
+      letter-spacing: 1px;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+      background: #17ffae none repeat scroll 0% 0%;
+      border: 1px solid #242424;
+      border-radius: 4px;
+      box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.25),
+        0 1px 0 rgba(255, 255, 255, 0.25) inset,
+        0 0 0 rgba(0, 0, 0, 0.5) inset,
+        0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+        0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+        0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+
+      transition: all 0.2s linear 0s;
+
+  text-align: center;
+  text-decoration: none;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
@@ -327,62 +358,212 @@ hr {
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; }
+    font-size: 55px; 
+   
+}
   .tile.tile-2 .tile-inner {
-    background: #FFEECC;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    background: #ff4400 none repeat scroll 0% 0%;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 0 rgba(255, 255, 255, 0.25) inset,
+      0 0 0 rgba(0, 0, 0, 0.5) inset,
+      0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+      0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+      0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+
+    transition: all 0.2s linear 0s;
+
+    text-align: center;
+    text-decoration: none;
+  }
   .tile.tile-4 .tile-inner {
-    background: #FFC34D;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    background: #e1ce00 none repeat scroll 0% 0%;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 0 rgba(255, 255, 255, 0.25) inset,
+      0 0 0 rgba(0, 0, 0, 0.5) inset,
+      0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+      0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+      0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+
+    transition: all 0.2s linear 0s;
+
+    text-align: center;
+    text-decoration: none;
+  }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #F9A500; }
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    background: #76cb00 none repeat scroll 0% 0%;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 0 rgba(255, 255, 255, 0.25) inset,
+      0 0 0 rgba(0, 0, 0, 0.5) inset,
+      0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+      0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+      0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+
+    transition: all 0.2s linear 0s;
+
+    text-align: center;
+    text-decoration: none;}
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #F37C55; }
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    background: #00cb73 none repeat scroll 0% 0%;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 0 rgba(255, 255, 255, 0.25) inset,
+      0 0 0 rgba(0, 0, 0, 0.5) inset,
+      0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+      0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+      0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+
+    transition: all 0.2s linear 0s;
+
+    text-align: center;
+    text-decoration: none;}
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #EB5C5C; }
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    background: #00cb40 none repeat scroll 0% 0%;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 0 rgba(255, 255, 255, 0.25) inset,
+      0 0 0 rgba(0, 0, 0, 0.5) inset,
+      0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+      0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+      0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+
+    transition: all 0.2s linear 0s;
+
+    text-align: center;
+    text-decoration: none;}
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
-    background: #FF3568; }
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    background: #4900bf none repeat scroll 0% 0%;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 0 rgba(255, 255, 255, 0.25) inset,
+      0 0 0 rgba(0, 0, 0, 0.5) inset,
+      0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+      0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+      0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+
+    transition: all 0.2s linear 0s;
+
+    text-align: center;
+    text-decoration: none; }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
-    background: #F53AB7;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    background: #007cbf none repeat scroll 0% 0%;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 0 rgba(255, 255, 255, 0.25) inset,
+      0 0 0 rgba(0, 0, 0, 0.5) inset,
+      0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+      0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+      0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+
+    transition: all 0.2s linear 0s;
+
+    text-align: center;
+    text-decoration: none;}
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
-    background: #37FFDE;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    background: #0010bf none repeat scroll 0% 0%;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 0 rgba(255, 255, 255, 0.25) inset,
+      0 0 0 rgba(0, 0, 0, 0.5) inset,
+      0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+      0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+      0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+    transition: all 0.2s linear 0s; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
-    background: #14CC80;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    background: #5f00bf none repeat scroll 0% 0%;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 0 rgba(255, 255, 255, 0.25) inset,
+      0 0 0 rgba(0, 0, 0, 0.5) inset,
+      0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+      0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+      0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+    transition: all 0.2s linear 0s;  }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
     color: #f9f6f2;
-    background: #2C71FF;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    background: #bf00b9 none repeat scroll 0% 0%;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 0 rgba(255, 255, 255, 0.25) inset,
+      0 0 0 rgba(0, 0, 0, 0.5) inset,
+      0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+      0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+      0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+    transition: all 0.2s linear 0s; 
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
     color: #f9f6f2;
-    background: #8129FF;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); 
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    background: #bf0033 none repeat scroll 0% 0%;
+    border: 1px solid #242424;
+    border-radius: 4px;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.25),
+      0 1px 0 rgba(255, 255, 255, 0.25) inset,
+      0 0 0 rgba(0, 0, 0, 0.5) inset,
+      0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+      0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+      0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
+    transition: all 0.2s linear 0s; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
@@ -519,16 +700,28 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #266EFF;
+  background: #00e7ffb5;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
+  box-shadow:
+  0 1px 0 rgba(255, 255, 255, 0.25),
+  0 1px 0 rgba(255, 255, 255, 0.25) inset,
+  0 0 0 rgba(0, 0, 0, 0.5) inset,
+  0 1.25rem 0 rgba(255, 255, 255, 0.08) inset,
+  0 -1.25rem 1.25rem rgba(0, 0, 0, 0.3) inset,
+  0 1.25rem 1.25rem rgba(255, 255, 255, 0.1) inset;
   color: #f9f6f2;
   height: 40px;
   line-height: 42px;
   display: block;
   text-align: center;
-  float: right; }
+  float: right;
+transition: all 0.2s linear 0s;
+
+  text-align: center;
+  text-decoration: none;
+ }
 
 .game-explanation {
   margin-top: 50px; }
